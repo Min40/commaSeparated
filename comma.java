@@ -8,14 +8,18 @@ public class comma {
 public static void main(String[] args){
 
 
-List<String> cities = Arrays.asList("Milan", 
-                                    "London", 
-                                    "New York", 
-                                    "San Francisco");
-		
-String citiesCommaSeparated = String.join(",", cities);
+List<String> numbers = Arrays.asList();
+	
+	numbers[0] = "One";
+	numbers[1] = "Two";
+	numbers[2] = "Three";
+	numbers[3] = "Four";
+	numbers[4] = "Five";
+	numbers[5] = "Six";
+	
+
  
-System.out.println(citiesCommaSeparated);
+System.out.println(String.join(",", numbers));
 
 }
 
