@@ -1,3 +1,7 @@
+import java.util.ArrayList;
+import java.util.List;
+
+
 public class comma {
 
 
@@ -14,7 +18,7 @@ List<String> str = new ArrayList<String>();
       
       
       for(String s: str){
-      System.out.println(StringUtils.join(s,", "));
+     System.out.println(String.join(", ", s));
       
       }
 
