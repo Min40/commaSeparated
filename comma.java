@@ -8,14 +8,14 @@ public class comma {
 public static void main(String[] args){
 
 
-List<String> numbers = Arrays.asList();
+List<String> numbers = Arrays.asList("One",
+	"Two",
+	"Three",
+	 "Four",
+	 "Five",
+	"Six");
 	
-	numbers[0] = "One";
-	numbers[1] = "Two";
-	numbers[2] = "Three";
-	numbers[3] = "Four";
-	numbers[4] = "Five";
-	numbers[5] = "Six";
+	
 	
 
  
