@@ -18,7 +18,7 @@ List<String> str = new ArrayList<String>();
       
       
       for(String s: str){
-     System.out.println(String.join(", ", s));
+     System.out.print(String.join(", ", s));
       
       }
 
